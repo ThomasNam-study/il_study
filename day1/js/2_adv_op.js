@@ -3,6 +3,11 @@ function executeOk () {
 }
 
 let result = true;
+
+if (result) {
+    executeOk();
+}
+
 result && executeOk();
 
 result = false;

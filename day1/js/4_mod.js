@@ -1,3 +1,3 @@
-import add from './lib.js';
+import {add, sub} from './lib.js';
 
 console.log(add(2, 5));

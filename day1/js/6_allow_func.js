@@ -8,19 +8,19 @@ class MyClass {
         console.log(this.v1);
         console.log(this.v2);
     }
-
+    //
     printValue2 = () => {
         console.log(this.v1);
         console.log(this.v2);
     }
-
-    print3 = () => {
-        const array = [1, 2, 3, 4, 5, 6, 7, 8];
-
-        array.forEach((v) => {
-           console.log(this.v1, v);
-        });
-    }
+    //
+    // print3 = () => {
+    //     const array = [1, 2, 3, 4, 5, 6, 7, 8];
+    //
+    //     array.forEach((v) => {
+    //        console.log(this.v1, v);
+    //     });
+    // }
 }
 
 function callBackTest (func) {
@@ -29,12 +29,12 @@ function callBackTest (func) {
 
 let mc = new MyClass(5, 6);
 
-mc.printValue();
+// mc.printValue();
 
 // callBackTest(mc.printValue); // Error
 callBackTest(mc.printValue2);
 
-mc.print3();
+//mc.print3();
 
 //
 // let mc2 = {

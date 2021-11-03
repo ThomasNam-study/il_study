@@ -13,10 +13,10 @@ myPromise
         console.log(error);
     });
 
-/*async function asyncTest () {
+async function asyncTest () {
     const result = await myPromise
 
     console.log("async", result);
 }
 
-asyncTest();*/
+asyncTest();

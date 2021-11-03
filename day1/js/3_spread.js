@@ -39,3 +39,7 @@ console.log(arr3);
 const arr4 = [...arr1, 9];
 console.log(arr1);
 console.log(arr4);
+
+const arr5 = [...arr1, 10, ...arr1];
+console.log(arr1);
+console.log(arr4);
